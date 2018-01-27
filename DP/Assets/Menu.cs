@@ -15,6 +15,17 @@ public class Menu : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    public void play()
+    {
+        Application.LoadLevel(1);
+    }
+
+    public void quit()
+    {
+        Debug.Log("the player has quit the game");
+        Application.Quit();
+    }
     public void Hi()
     {
         Debug.Log("hi");
