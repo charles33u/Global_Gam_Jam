@@ -700,6 +700,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4531199890549506}
   - component: {fileID: 212924248870540412}
+  - component: {fileID: 114406975203385852}
   m_Layer: 10
   m_Name: PrototypeWhite04x01
   m_TagString: Untagged
@@ -1344,7 +1345,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1100281713616532}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.678856, y: 3.1728556, z: 0}
+  m_LocalPosition: {x: -0.5591898, y: -1.9685781, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4169609159652380}
@@ -2339,6 +2340,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.07894616, y: 0.6308952}
   m_EdgeRadius: 0
+--- !u!114 &114406975203385852
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1817808289805808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d34d561754c2f64c84b06e4b6c986ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212060664987506260
 SpriteRenderer:
   m_ObjectHideFlags: 1
