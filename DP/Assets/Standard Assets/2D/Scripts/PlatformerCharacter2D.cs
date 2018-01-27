@@ -21,6 +21,8 @@ using UnityEngine;
 
         //Variables timer
         private float timer = 0f;
+        public int numJoueur;
+        public static GameObject[] players;
 
         //timer mort
         public float timerDeath = 5f;
@@ -67,6 +69,14 @@ using UnityEngine;
             }
         }
 
+        private void Start()
+        {
+            if (players == null)
+            {
+                players = new GameObject[2];
+            }
+            players[numJoueur] = this.gameObject;
+        }
 
         private void FixedUpdate()
         {
@@ -248,6 +258,8 @@ using UnityEngine;
             IsPlayerDead = false;
             timer = 0f;
             m_Anim.SetTrigger("Respawn");
+
+            
             
         }
 
