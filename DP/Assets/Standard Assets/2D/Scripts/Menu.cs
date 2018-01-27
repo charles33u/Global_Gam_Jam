@@ -6,6 +6,7 @@ public class Menu : MonoBehaviour {
 
     public GameObject menu;
     public GameObject generic;
+    public GameObject controls;
 	// Use this for initialization
 	void Start () {
 		
@@ -18,6 +19,7 @@ public class Menu : MonoBehaviour {
 
     public void play()
     {
+        //a décrocher
         //Application.LoadLevel(1);
     }
 
@@ -43,5 +45,17 @@ public class Menu : MonoBehaviour {
     {
         generic.SetActive(true);
         menu.SetActive(false);
+    }
+    //Pour switcher entre Groupe Controls et GroupeMenu
+    public void GoControls()
+    {
+        controls.SetActive(true);
+        menu.SetActive(false);
+    }
+    //Pour switcher entre GroupeMenu et Groupe Controls
+    public void GoMenuC()
+    {
+        controls.SetActive(false);
+        menu.SetActive(true);
     }
 }
