@@ -10,6 +10,7 @@ namespace UnityStandardAssets._2D
         private PlatformerCharacter2D m_Character;
         private bool m_Jump;
 
+        public int player;
 
         private void Awake()
         {
@@ -22,18 +23,18 @@ namespace UnityStandardAssets._2D
             if (!m_Jump)
             {
                 // Read the jump input in Update so button presses aren't missed.
-                m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
+                m_Jump = CrossPlatformInputManager.GetButtonDown("Jump " + player);
             }
 
-            if (Input.GetButtonDown("Attack"))
+            if (Input.GetButtonDown("Attack " + player))
             {
                 m_Character.Attack();
             }
-            if (Input.GetButtonDown("Shoot"))
+            if (Input.GetButtonDown("Shoot " + player))
             {
                 m_Character.Shoot();
             }
-            if (Input.GetButtonDown("CounterAttack"))
+            if (Input.GetButtonDown("CounterAttack " + player))
             {
                 m_Character.CounterAttack();
             }
@@ -44,7 +45,7 @@ namespace UnityStandardAssets._2D
         {
             // Read the inputs.
             bool crouch = Input.GetKey(KeyCode.LeftControl);
-            float h = CrossPlatformInputManager.GetAxis("Horizontal");
+            float h = CrossPlatformInputManager.GetAxis("Horizontal " + player);
             // Pass all parameters to the character control script.
             m_Character.Move(h, crouch, m_Jump);
             m_Jump = false;
