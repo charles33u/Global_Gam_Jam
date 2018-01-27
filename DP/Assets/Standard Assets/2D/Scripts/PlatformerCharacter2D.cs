@@ -262,6 +262,13 @@ using UnityEngine;
             
             
         }
+		void ralentir(){
+			this.m_MaxSpeed = 4f;
+		}
+
+		void boost(){
+			this.m_MaxSpeed = 10f;
+		}
 
     }
 
