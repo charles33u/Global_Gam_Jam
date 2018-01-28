@@ -132,7 +132,6 @@ public float timerDeath = 5f;
 
             // The Speed animator parameter is set to the absolute value of the horizontal input.
             m_Anim.SetFloat("Speed", Mathf.Abs(move));
-        Debug.Log(Mathf.Abs(move));
 
             // Move the character
             m_Rigidbody2D.velocity = new Vector2(move*m_MaxSpeed, m_Rigidbody2D.velocity.y);
