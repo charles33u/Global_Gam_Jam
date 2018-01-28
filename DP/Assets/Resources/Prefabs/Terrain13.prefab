@@ -52,7 +52,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4757420314172780}
   - component: {fileID: 212046172342050520}
-  - component: {fileID: 114183373453327758}
   m_Layer: 10
   m_Name: PrototypeWhite04x01
   m_TagString: Untagged
@@ -449,6 +448,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4057953365814110}
   - component: {fileID: 61692481911743142}
+  - component: {fileID: 114104916134883806}
   m_Layer: 0
   m_Name: Collider
   m_TagString: Untagged
@@ -575,7 +575,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4203079082608216}
   - component: {fileID: 212196240921126562}
-  - component: {fileID: 114657160294241106}
   m_Layer: 10
   m_Name: PrototypeWhite04x01
   m_TagString: Untagged
@@ -638,6 +637,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4354381791766922}
   - component: {fileID: 61559740147755234}
+  - component: {fileID: 114007774484420126}
   m_Layer: 0
   m_Name: Collider
   m_TagString: Untagged
@@ -726,7 +726,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1273985241906516}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.7848408, y: -2.7019427, z: 0}
+  m_LocalPosition: {x: 1.6824896, y: -3.1669726, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4033393147614020}
@@ -1684,23 +1684,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 7.3968587, y: 0.62178636}
   m_EdgeRadius: 0
---- !u!114 &114183373453327758
+--- !u!114 &114007774484420126
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1039319811312958}
+  m_GameObject: {fileID: 1911905951636160}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f482df8b5ec13e743accf523300968c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114657160294241106
+--- !u!114 &114104916134883806
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1748088880868042}
+  m_GameObject: {fileID: 1532291715523142}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f482df8b5ec13e743accf523300968c1, type: 3}

@@ -18,7 +18,7 @@ public class Trampoline : MonoBehaviour {
 	{
 		if(col.gameObject.tag == "Player")
 		{
-			col.rigidbody.AddForce(new Vector2 (0,25),ForceMode2D.Impulse);
+			col.rigidbody.AddForce(new Vector2 (0,30),ForceMode2D.Impulse);
 		}
 	}
 		
