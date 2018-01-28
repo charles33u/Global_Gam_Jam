@@ -230,7 +230,7 @@ using UnityEngine;
             }
         }
 
-        private void DeathPlayer()
+		 void DeathPlayer()
         {
             IsPlayerDead = true;
             m_Anim.SetTrigger("Death");
