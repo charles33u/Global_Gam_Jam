@@ -13,6 +13,7 @@ AnimationClip:
   m_RotationCurves: []
   m_CompressedRotationCurves: []
   m_EulerCurves: []
+<<<<<<< HEAD:DP/Assets/Standard Assets/2D/Animations/Male/Death.anim
   m_PositionCurves:
   - curve:
       serializedVersion: 2
@@ -39,6 +40,9 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     path: Sprite
+=======
+  m_PositionCurves: []
+>>>>>>> 8888ad6315c94a7586d795e90be58953c02eb9d4:DP/Assets/Standard Assets/2D/Animations/Attack.anim
   m_ScaleCurves: []
   m_FloatCurves: []
   m_PPtrCurves:
@@ -69,6 +73,7 @@ AnimationClip:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
   m_ClipBindingConstant:
+<<<<<<< HEAD:DP/Assets/Standard Assets/2D/Animations/Male/Death.anim
     genericBindings:
     - serializedVersion: 2
       path: 850496168
@@ -93,6 +98,10 @@ AnimationClip:
     - {fileID: 21300010, guid: 2531edb83cfd12b45ae29a4faf677932, type: 3}
     - {fileID: 21300012, guid: 2531edb83cfd12b45ae29a4faf677932, type: 3}
     - {fileID: 21300014, guid: 2531edb83cfd12b45ae29a4faf677932, type: 3}
+=======
+    genericBindings: []
+    pptrCurveMapping: []
+>>>>>>> 8888ad6315c94a7586d795e90be58953c02eb9d4:DP/Assets/Standard Assets/2D/Animations/Attack.anim
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -113,6 +122,7 @@ AnimationClip:
     m_KeepOriginalPositionXZ: 0
     m_HeightFromFeet: 0
     m_Mirror: 0
+<<<<<<< HEAD:DP/Assets/Standard Assets/2D/Animations/Male/Death.anim
   m_EditorCurves:
   - curve:
       serializedVersion: 2
@@ -186,6 +196,9 @@ AnimationClip:
     path: Sprite
     classID: 4
     script: {fileID: 0}
+=======
+  m_EditorCurves: []
+>>>>>>> 8888ad6315c94a7586d795e90be58953c02eb9d4:DP/Assets/Standard Assets/2D/Animations/Attack.anim
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0

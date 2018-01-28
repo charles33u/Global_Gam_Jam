@@ -23,7 +23,7 @@ public class Menu : MonoBehaviour
     public void play()
     {
         //a décrocher
-        //Application.LoadLevel(1);
+        Application.LoadLevel("Arene");
     }
 
     public void quit()
