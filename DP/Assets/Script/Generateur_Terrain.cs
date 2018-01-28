@@ -20,7 +20,7 @@ public class Generateur_Terrain : MonoBehaviour {
 		}
 
 		GameObject g0 = Instantiate(Resources.Load("Prefabs/Fin_jeu_gauche"), Vector2.zero, Quaternion.identity) as GameObject;
-	//	GameObject g2 = Instantiate(Resources.Load("Prefabs/Fin_jeu_droite"), new Vector2(g1.transform.position.x-26, g1.transform.position.y), Quaternion.identity) as GameObject;
+		GameObject g2 = Instantiate(Resources.Load("Prefabs/Fin_jeu_droite"), new Vector2(g0.transform.position.x+mapNumber*26, g0.transform.position.y), Quaternion.identity) as GameObject;
 	}
 	
 	// Update is called once per frame
