@@ -19,7 +19,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4163477311571774}
-  - component: {fileID: 114317526021740100}
   m_Layer: 0
   m_Name: Harpon
   m_TagString: Harpon
@@ -140,17 +139,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1.28
---- !u!114 &114317526021740100
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1103149118941242}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 430b5f04c4d87cc44b90b58b4c5cecb6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114543005995641770
 MonoBehaviour:
   m_ObjectHideFlags: 1

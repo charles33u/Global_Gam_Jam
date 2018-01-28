@@ -32,8 +32,9 @@ public class PlatformerCharacter2D : MonoBehaviour
 
 
 //timer mort
-public float timerDeath = 5f;
-    bool IsPlayerDead = false;
+	public float timerDeath = 5f;
+	bool IsPlayerDead = false;
+	bool isInAction = false;
 
     //Enum
     enum LastAction {Attack, Block, Shoot, None }
@@ -67,12 +68,9 @@ public float timerDeath = 5f;
     {
         //Attack
         timer += Time.deltaTime;
-        if (IsPlayerDead)
+		if (IsPlayerDead && timer >= timerDeath)
         {
-            if(timerDeath <= timer)
-            {
-                Respawn();
-            }
+            Respawn();
         }
     }
 
@@ -98,6 +96,7 @@ public float timerDeath = 5f;
             if (colliders[i].gameObject != gameObject)
                 m_Grounded = true;
         }
+
         m_Anim.SetBool("Ground", m_Grounded);
 
         // Set the vertical animation
@@ -174,7 +173,8 @@ public float timerDeath = 5f;
     public void Attack()
     {
         if (!CanIAction())
-            return;
+			return;
+		isInAction = true;
         lastAction = LastAction.Attack;
         m_Rigidbody2D.velocity = Vector3.zero;
         m_Anim.SetTrigger("Attack");
@@ -186,7 +186,8 @@ public float timerDeath = 5f;
     public void CounterAttack()
     {
         if (!CanIAction())
-            return;
+			return;
+		isInAction = true;
         lastAction = LastAction.Block;
         m_Rigidbody2D.velocity = Vector3.zero;
         m_Anim.SetTrigger("CounterAttack");
@@ -197,6 +198,7 @@ public float timerDeath = 5f;
     {
         if (!CanIAction())
             return;
+		isInAction = true;
         lastAction = LastAction.Shoot;
         m_Rigidbody2D.velocity = Vector3.zero;
         m_Anim.SetTrigger("Attack");
@@ -208,9 +210,10 @@ public float timerDeath = 5f;
 
     private bool CanIMove()
     {
-        if (IsPlayerDead)
+        if (IsPlayerDead || isInAction)
             return false;
-        switch (lastAction)
+		return true;
+        /*switch (lastAction)
         {
             case LastAction.Attack:
                 return timer >= stunCooldownAttack;
@@ -220,12 +223,12 @@ public float timerDeath = 5f;
                 return timer >= stunCooldownShoot;
             default:
                 return true;
-        }
+        }*/
     }
 
     private bool CanIAction()
     {
-    if (IsPlayerDead)
+		if (IsPlayerDead || isInAction)
         return false;
     switch (lastAction)
         {
@@ -241,8 +244,11 @@ public float timerDeath = 5f;
     }
 
 		void DeathPlayer()
-    {
+	{
+		timer = 0f;
+		m_Anim.SetBool("Revive", false);
         IsPlayerDead = true;
+		//IsPlayerReviving = true;
         m_Anim.SetTrigger("Die");
         m_Rigidbody2D.velocity = Vector3.zero;
         m_Anim.SetFloat("Speed", 0);
@@ -250,7 +256,7 @@ public float timerDeath = 5f;
 
     public void Touch(Armes axeHit)
     {
-        if (axeShot == axeHit.gameObject)
+		if (axeShot == axeHit.gameObject || IsPlayerDead)
         {
             return;
         }
@@ -276,19 +282,16 @@ public float timerDeath = 5f;
     {
         IsPlayerDead = false;
         timer = 0f;
-        m_Anim.SetTrigger("Revive");
+        m_Anim.SetBool("Revive", true);
         // move back to zero location
-        float posX = players[(numJoueur + 1) % 2].transform.position.x;
+        float otherPosX = players[(numJoueur == 0)? 1 : 0].transform.position.x;
         if(players[numJoueur] = players[0])
         {
-            Debug.Log(numJoueur);
-            float newPosX = (posX - (posX % interval)) - interval;
-            transform.position = new Vector3(newPosX, 5, 0);
+			transform.position = new Vector3(otherPosX - interval, 5, 0);
         }
         else
         {
-        float newPosX = (posX -(interval - (posX % interval))) + interval;
-        transform.position = new Vector3(newPosX, 5, 0);
+			transform.position = new Vector3(otherPosX + interval, 5, 0);
         }
     }
 	
@@ -299,6 +302,10 @@ public float timerDeath = 5f;
 		void boost(){
 			this.m_MaxSpeed = 10f;
 		}
+
+	public void inIdle (){
+		isInAction = false;
+	}
 
 }
 
