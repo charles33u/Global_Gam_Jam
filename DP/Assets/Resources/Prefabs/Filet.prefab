@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 114985436231885662}
   - component: {fileID: 114006987340797358}
   m_Layer: 10
-  m_Name: PrototypeWhite04x01 (1)
+  m_Name: Filet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
