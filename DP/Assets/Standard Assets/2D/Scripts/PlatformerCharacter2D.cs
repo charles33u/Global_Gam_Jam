@@ -41,16 +41,16 @@ public float timerDeath = 5f;
     private LastAction lastAction = LastAction.None;
 
     //Attack
-    public float stunCooldownAttack = 1f;
-    public float actionCooldownAttack = 1.5f;
+    public float stunCooldownAttack = 0.7f;
+    public float actionCooldownAttack = 1.0f;
 
     //Shoot
-    public float stunCooldownShoot = 1.3f;
-    public float actionCooldownShoot = 1.5f;
+    public float stunCooldownShoot = 0.8f;
+    public float actionCooldownShoot = 1.2f;
 
     //CounterAttack
-    public float stunCooldownCa = 3.0f;
-    public float actionCooldownCa = 1.9f;
+    public float stunCooldownCa = 0.9f;
+    public float actionCooldownCa = 1.5f;
 
     ////////////////////////////////////
 
@@ -291,6 +291,14 @@ public float timerDeath = 5f;
         transform.position = new Vector3(newPosX, 5, 0);
         }
     }
+	
+	void ralentir(){
+			this.m_MaxSpeed = 4f;
+		}
+
+		void boost(){
+			this.m_MaxSpeed = 10f;
+		}
 
 }
 
