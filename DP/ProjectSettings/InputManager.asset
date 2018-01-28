@@ -6,11 +6,7 @@ InputManager:
   serializedVersion: 2
   m_Axes:
   - serializedVersion: 3
-<<<<<<< HEAD
     m_Name: Horizontal 1
-=======
-    m_Name: Horizontal 0
->>>>>>> 8888ad6315c94a7586d795e90be58953c02eb9d4
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: left
@@ -122,7 +118,7 @@ InputManager:
     axis: 0
     joyNum: 0
   - serializedVersion: 3
-    m_Name: Jump 0
+    m_Name: Jump
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
@@ -346,11 +342,7 @@ InputManager:
     axis: 0
     joyNum: 0
   - serializedVersion: 3
-<<<<<<< HEAD
     m_Name: Attack 1
-=======
-    m_Name: Attack 0
->>>>>>> 8888ad6315c94a7586d795e90be58953c02eb9d4
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
@@ -366,7 +358,6 @@ InputManager:
     axis: 0
     joyNum: 1
   - serializedVersion: 3
-<<<<<<< HEAD
     m_Name: Attack 2
     descriptiveName: 
     descriptiveNegativeName: 
@@ -384,9 +375,6 @@ InputManager:
     joyNum: 2
   - serializedVersion: 3
     m_Name: Shoot 1
-=======
-    m_Name: Shoot 0
->>>>>>> 8888ad6315c94a7586d795e90be58953c02eb9d4
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
@@ -402,7 +390,6 @@ InputManager:
     axis: 0
     joyNum: 1
   - serializedVersion: 3
-<<<<<<< HEAD
     m_Name: Shoot 2
     descriptiveName: 
     descriptiveNegativeName: 
@@ -420,9 +407,6 @@ InputManager:
     joyNum: 2
   - serializedVersion: 3
     m_Name: CounterAttack 1
-=======
-    m_Name: CounterAttack 0
->>>>>>> 8888ad6315c94a7586d795e90be58953c02eb9d4
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
