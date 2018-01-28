@@ -190,7 +190,7 @@ public float timerDeath = 5f;
             return;
         lastAction = LastAction.Block;
         m_Rigidbody2D.velocity = Vector3.zero;
-        m_Anim.SetTrigger("Attack");
+        m_Anim.SetTrigger("CounterAttack");
         timer = 0f;
     }
 
