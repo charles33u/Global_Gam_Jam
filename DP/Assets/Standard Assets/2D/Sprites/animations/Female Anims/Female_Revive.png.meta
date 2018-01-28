@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: d3ccb94a2d58b3242af4248ca4184b4a
+timeCreated: 1517101146
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Female_Revive_0
+    21300002: Female_Revive_1
+    21300004: Female_Revive_2
+    21300006: Female_Revive_3
+    21300008: Female_Revive_4
+    21300010: Female_Revive_5
+    21300012: Female_Revive_6
+    21300014: Female_Revive_7
+    21300016: Female_Revive_8
+    21300018: Female_Revive_9
+    21300020: Female_Revive_10
+    21300022: Female_Revive_11
+    21300024: Female_Revive_12
+    21300026: Female_Revive_13
+    21300028: Female_Revive_14
+    21300030: Female_Revive_15
+    21300032: Female_Revive_16
+    21300034: Female_Revive_17
+    21300036: Female_Revive_18
+    21300038: Female_Revive_19
+    21300040: Female_Revive_20
+    21300042: Female_Revive_21
+    21300044: Female_Revive_22
+    21300046: Female_Revive_23
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 600
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Female_Revive_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6260
+        width: 1273
+        height: 1252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Female_Revive_1
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 6260
+        width: 1273
+        height: 1252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Female_Revive_2
+      rect:
+        serializedVersion: 2
+        x: 2546
+        y: 6260
+        width: 1273
+        height: 1252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Female_Revive_3
+      rect:
+        serializedVersion: 2
+        x: 3819
+        y: 6260
+        width: 1273
+        height: 1252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Female_Revive_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5008
+        width: 1273
+        height: 1252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Female_Revive_5
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 5008
+        width: 1273
+        height: 1252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Female_Revive_6
+      rect:
+        serializedVersion: 2
+        x: 2546
+        y: 5008
+        width: 1273
+        height: 1252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Female_Revive_7
+      rect:
+        serializedVersion: 2
+        x: 3819
+        y: 5008
+        width: 1273
+        height: 1252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Female_Revive_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3756
+        width: 1273
+        height: 1252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Female_Revive_9
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 3756
+        width: 1273
+        height: 1252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Female_Revive_10
+      rect:
+        serializedVersion: 2
+        x: 2546
+        y: 3756
+        width: 1273
+        height: 1252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Female_Revive_11
+      rect:
+        serializedVersion: 2
+        x: 3819
+        y: 3756
+        width: 1273
+        height: 1252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Female_Revive_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2504
+        width: 1273
+        height: 1252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Female_Revive_13
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 2504
+        width: 1273
+        height: 1252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Female_Revive_14
+      rect:
+        serializedVersion: 2
+        x: 2546
+        y: 2504
+        width: 1273
+        height: 1252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Female_Revive_15
+      rect:
+        serializedVersion: 2
+        x: 3819
+        y: 2504
+        width: 1273
+        height: 1252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Female_Revive_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1252
+        width: 1273
+        height: 1252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Female_Revive_17
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 1252
+        width: 1273
+        height: 1252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Female_Revive_18
+      rect:
+        serializedVersion: 2
+        x: 2546
+        y: 1252
+        width: 1273
+        height: 1252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Female_Revive_19
+      rect:
+        serializedVersion: 2
+        x: 3819
+        y: 1252
+        width: 1273
+        height: 1252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Female_Revive_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1273
+        height: 1252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Female_Revive_21
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 0
+        width: 1273
+        height: 1252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Female_Revive_22
+      rect:
+        serializedVersion: 2
+        x: 2546
+        y: 0
+        width: 1273
+        height: 1252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Female_Revive_23
+      rect:
+        serializedVersion: 2
+        x: 3819
+        y: 0
+        width: 1273
+        height: 1252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

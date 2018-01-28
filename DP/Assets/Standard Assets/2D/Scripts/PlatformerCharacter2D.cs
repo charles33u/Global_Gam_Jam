@@ -23,9 +23,16 @@ using UnityEngine;
         private float timer = 0f;
         public int numJoueur;
         public static GameObject[] players;
+        public int interval = 3;
 
-        //timer mort
-        public float timerDeath = 5f;
+        //Hache
+        public GameObject axe;
+        private GameObject axeShot;
+        public float attackSpeed = 2f;
+
+
+    //timer mort
+    public float timerDeath = 5f;
         bool IsPlayerDead = false;
 
         //Enum
@@ -125,6 +132,7 @@ using UnityEngine;
 
                 // The Speed animator parameter is set to the absolute value of the horizontal input.
                 m_Anim.SetFloat("Speed", Mathf.Abs(move));
+            Debug.Log(Mathf.Abs(move));
 
                 // Move the character
                 m_Rigidbody2D.velocity = new Vector2(move*m_MaxSpeed, m_Rigidbody2D.velocity.y);
@@ -194,7 +202,10 @@ using UnityEngine;
             m_Rigidbody2D.velocity = Vector3.zero;
             m_Anim.SetTrigger("Attack");
             timer = 0f;
-        }
+            axeShot = Instantiate(axe, transform.position, Quaternion.identity) as GameObject;
+            axeShot.GetComponent<Rigidbody2D>().AddForce((m_FacingRight) ? Vector3.right * attackSpeed : Vector3.left * attackSpeed);
+            axeShot.GetComponent<Rigidbody2D>().AddTorque((m_FacingRight) ? -360f : 360f);
+    }
 
         private bool CanIMove()
         {
@@ -233,14 +244,18 @@ using UnityEngine;
         private void DeathPlayer()
         {
             IsPlayerDead = true;
-            m_Anim.SetTrigger("Death");
+            m_Anim.SetTrigger("Die");
             m_Rigidbody2D.velocity = Vector3.zero;
             m_Anim.SetFloat("Speed", 0);
         }
 
-        public void Touch()
+        public void Touch(GameObject axeHit)
         {
-            if(lastAction == LastAction.Block)
+            if (axeShot == axeHit)
+            {
+                return;
+            }
+            if (lastAction == LastAction.Block)
             {
                 if(stunCooldownCa <= timer)
                 {
@@ -257,18 +272,21 @@ using UnityEngine;
         {
             IsPlayerDead = false;
             timer = 0f;
-            m_Anim.SetTrigger("Respawn");
-
-            
-            
+            m_Anim.SetTrigger("Revive");
+            // move back to zero location
+            float posX = players[(numJoueur + 1) % 2].transform.position.x;
+            if(players[numJoueur] = players[0])
+            {
+                Debug.Log(numJoueur);
+                float newPosX = (posX - (posX % interval)) - interval;
+                transform.position = new Vector3(newPosX, 5, 0);
+            }
+            else
+            {
+            float newPosX = (posX -(interval - (posX % interval))) + interval;
+            transform.position = new Vector3(newPosX, 5, 0);
+            }
         }
-		void ralentir(){
-			this.m_MaxSpeed = 4f;
-		}
-
-		void boost(){
-			this.m_MaxSpeed = 10f;
-		}
 
     }
 

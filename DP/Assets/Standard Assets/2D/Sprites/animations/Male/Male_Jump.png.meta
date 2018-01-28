@@ -1,0 +1,547 @@
+fileFormatVersion: 2
+guid: 903e3cff4798da74db717c70c25840d4
+timeCreated: 1517108191
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Male_Jump_0
+    21300002: Male_Jump_1
+    21300004: Male_Jump_2
+    21300006: Male_Jump_3
+    21300008: Male_Jump_4
+    21300010: Male_Jump_5
+    21300012: Male_Jump_6
+    21300014: Male_Jump_7
+    21300016: Male_Jump_8
+    21300018: Male_Jump_9
+    21300020: Male_Jump_10
+    21300022: Male_Jump_11
+    21300024: Male_Jump_12
+    21300026: Male_Jump_13
+    21300028: Male_Jump_14
+    21300030: Male_Jump_15
+    21300032: Male_Jump_16
+    21300034: Male_Jump_17
+    21300036: Male_Jump_18
+    21300038: Male_Jump_19
+    21300040: Male_Jump_20
+    21300042: Male_Jump_21
+    21300044: Male_Jump_22
+    21300046: Male_Jump_23
+    21300048: Male_Jump_24
+    21300050: Male_Jump_25
+    21300052: Male_Jump_26
+    21300054: Male_Jump_27
+    21300056: Male_Jump_28
+    21300058: Male_Jump_29
+    21300060: Male_Jump_30
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 630
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Male_Jump_0
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 8053
+        width: 675
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Jump_1
+      rect:
+        serializedVersion: 2
+        x: 2045
+        y: 8014
+        width: 728
+        height: 867
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Jump_2
+      rect:
+        serializedVersion: 2
+        x: 3626
+        y: 7987
+        width: 763
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Jump_3
+      rect:
+        serializedVersion: 2
+        x: 5210
+        y: 7970
+        width: 781
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Jump_4
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 6822
+        width: 786
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Jump_5
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 6810
+        width: 807
+        height: 950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Jump_6
+      rect:
+        serializedVersion: 2
+        x: 3564
+        y: 6809
+        width: 829
+        height: 944
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Jump_7
+      rect:
+        serializedVersion: 2
+        x: 5143
+        y: 6809
+        width: 856
+        height: 948
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Jump_8
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 5679
+        width: 891
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Jump_9
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 5675
+        width: 922
+        height: 966
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Jump_10
+      rect:
+        serializedVersion: 2
+        x: 3506
+        y: 5674
+        width: 953
+        height: 971
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Jump_11
+      rect:
+        serializedVersion: 2
+        x: 5082
+        y: 5674
+        width: 988
+        height: 975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Jump_12
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 4544
+        width: 1014
+        height: 980
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Jump_13
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 4544
+        width: 1050
+        height: 984
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Jump_14
+      rect:
+        serializedVersion: 2
+        x: 3445
+        y: 4544
+        width: 1081
+        height: 988
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Jump_15
+      rect:
+        serializedVersion: 2
+        x: 5024
+        y: 4544
+        width: 1112
+        height: 989
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Jump_16
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 3416
+        width: 1147
+        height: 987
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Jump_17
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 3419
+        width: 1178
+        height: 984
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Jump_18
+      rect:
+        serializedVersion: 2
+        x: 3383
+        y: 3419
+        width: 1213
+        height: 988
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Jump_19
+      rect:
+        serializedVersion: 2
+        x: 4960
+        y: 3419
+        width: 1247
+        height: 988
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Jump_20
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 2289
+        width: 1275
+        height: 993
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Jump_21
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 2293
+        width: 1310
+        height: 993
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Jump_22
+      rect:
+        serializedVersion: 2
+        x: 3325
+        y: 2293
+        width: 1337
+        height: 993
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Jump_23
+      rect:
+        serializedVersion: 2
+        x: 4901
+        y: 2298
+        width: 1368
+        height: 993
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Jump_24
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1168
+        width: 1394
+        height: 997
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Jump_25
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 1172
+        width: 1417
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Jump_26
+      rect:
+        serializedVersion: 2
+        x: 3272
+        y: 1176
+        width: 1443
+        height: 993
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Jump_27
+      rect:
+        serializedVersion: 2
+        x: 4852
+        y: 1177
+        width: 1465
+        height: 997
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Jump_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 51
+        width: 1487
+        height: 997
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Jump_29
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 55
+        width: 1505
+        height: 998
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Jump_30
+      rect:
+        serializedVersion: 2
+        x: 3233
+        y: 60
+        width: 1518
+        height: 997
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

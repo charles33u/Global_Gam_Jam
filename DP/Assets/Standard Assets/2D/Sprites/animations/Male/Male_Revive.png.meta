@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: f2b17e73a0c96c448b4be0d6b20c04fc
+timeCreated: 1517106026
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Male_Revive_0
+    21300002: Male_Revive_1
+    21300004: Male_Revive_2
+    21300006: Male_Revive_3
+    21300008: Male_Revive_4
+    21300010: Male_Revive_5
+    21300012: Male_Revive_6
+    21300014: Male_Revive_7
+    21300016: Male_Revive_8
+    21300018: Male_Revive_9
+    21300020: Male_Revive_10
+    21300022: Male_Revive_11
+    21300024: Male_Revive_12
+    21300026: Male_Revive_13
+    21300028: Male_Revive_14
+    21300030: Male_Revive_15
+    21300032: Male_Revive_16
+    21300034: Male_Revive_17
+    21300036: Male_Revive_18
+    21300038: Male_Revive_19
+    21300040: Male_Revive_20
+    21300042: Male_Revive_21
+    21300044: Male_Revive_22
+    21300046: Male_Revive_23
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 630
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Male_Revive_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5044
+        width: 1262
+        height: 1261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Revive_1
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 5044
+        width: 1262
+        height: 1261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Revive_2
+      rect:
+        serializedVersion: 2
+        x: 2524
+        y: 5044
+        width: 1262
+        height: 1261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Revive_3
+      rect:
+        serializedVersion: 2
+        x: 3786
+        y: 5044
+        width: 1262
+        height: 1261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Revive_4
+      rect:
+        serializedVersion: 2
+        x: 5048
+        y: 5044
+        width: 1262
+        height: 1261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Revive_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3783
+        width: 1262
+        height: 1261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Revive_6
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 3783
+        width: 1262
+        height: 1261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Revive_7
+      rect:
+        serializedVersion: 2
+        x: 2524
+        y: 3783
+        width: 1262
+        height: 1261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Revive_8
+      rect:
+        serializedVersion: 2
+        x: 3786
+        y: 3783
+        width: 1262
+        height: 1261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Revive_9
+      rect:
+        serializedVersion: 2
+        x: 5048
+        y: 3783
+        width: 1262
+        height: 1261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Revive_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2522
+        width: 1262
+        height: 1261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Revive_11
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 2522
+        width: 1262
+        height: 1261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Revive_12
+      rect:
+        serializedVersion: 2
+        x: 2524
+        y: 2522
+        width: 1262
+        height: 1261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Revive_13
+      rect:
+        serializedVersion: 2
+        x: 3786
+        y: 2522
+        width: 1262
+        height: 1261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Revive_14
+      rect:
+        serializedVersion: 2
+        x: 5048
+        y: 2522
+        width: 1262
+        height: 1261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Revive_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1261
+        width: 1262
+        height: 1261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Revive_16
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1261
+        width: 1262
+        height: 1261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Revive_17
+      rect:
+        serializedVersion: 2
+        x: 2524
+        y: 1261
+        width: 1262
+        height: 1261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Revive_18
+      rect:
+        serializedVersion: 2
+        x: 3786
+        y: 1261
+        width: 1262
+        height: 1261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Revive_19
+      rect:
+        serializedVersion: 2
+        x: 5048
+        y: 1261
+        width: 1262
+        height: 1261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Revive_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1262
+        height: 1261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Revive_21
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 0
+        width: 1262
+        height: 1261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Revive_22
+      rect:
+        serializedVersion: 2
+        x: 2524
+        y: 0
+        width: 1262
+        height: 1261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Male_Revive_23
+      rect:
+        serializedVersion: 2
+        x: 3786
+        y: 0
+        width: 1262
+        height: 1261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
