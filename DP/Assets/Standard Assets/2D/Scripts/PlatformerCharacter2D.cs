@@ -291,6 +291,14 @@ public float timerDeath = 5f;
         transform.position = new Vector3(newPosX, 5, 0);
         }
     }
+	
+	void ralentir(){
+			this.m_MaxSpeed = 4f;
+		}
+
+		void boost(){
+			this.m_MaxSpeed = 10f;
+		}
 
 }
 
