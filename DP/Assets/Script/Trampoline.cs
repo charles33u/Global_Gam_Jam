@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Trampoline : MonoBehaviour {
-
+	public float jumpSpeed = 30f;
 	// Use this for initialization
 	void Start () {
 		
@@ -18,7 +18,7 @@ public class Trampoline : MonoBehaviour {
 	{
 		if(col.gameObject.tag == "Player")
 		{
-			col.rigidbody.AddForce(new Vector2 (0,30),ForceMode2D.Impulse);
+			col.rigidbody.velocity = new Vector2 (col.rigidbody.velocity.x, jumpSpeed);
 		}
 	}
 		

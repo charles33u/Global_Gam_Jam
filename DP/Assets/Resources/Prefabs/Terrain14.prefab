@@ -69,7 +69,7 @@ GameObject:
   - component: {fileID: 212770480226191832}
   - component: {fileID: 50030068101583638}
   - component: {fileID: 58420443636092090}
-  - component: {fileID: 114388019988342404}
+  - component: {fileID: 114808012454158146}
   m_Layer: 0
   m_Name: Balle
   m_TagString: Harpon
@@ -231,7 +231,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4986057090808370}
   - component: {fileID: 212662403222900864}
-  - component: {fileID: 114189948477842452}
+  - component: {fileID: 114430360323271564}
   m_Layer: 10
   m_Name: PrototypeWhite04x01
   m_TagString: Harpon
@@ -416,7 +416,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1027736510264530}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.08073306, y: -22.793976, z: 0}
+  m_LocalPosition: {x: 3.2970514, y: -0.69399667, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4063644477094412}
@@ -912,7 +912,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.5, y: 0.625}
   m_EdgeRadius: 0
---- !u!114 &114189948477842452
+--- !u!114 &114430360323271564
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -923,7 +923,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 430b5f04c4d87cc44b90b58b4c5cecb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114388019988342404
+--- !u!114 &114808012454158146
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -945,6 +945,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 123e56382c62af34ea4a302e45f9ba5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jumpSpeed: 30
 --- !u!212 &212051009963488042
 SpriteRenderer:
   m_ObjectHideFlags: 1

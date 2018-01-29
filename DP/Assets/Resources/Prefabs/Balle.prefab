@@ -23,9 +23,10 @@ GameObject:
   - component: {fileID: 50471388198771024}
   - component: {fileID: 58221891041221698}
   - component: {fileID: 114576764041149362}
+  - component: {fileID: 114067518310451664}
   m_Layer: 0
   m_Name: Balle
-  m_TagString: Untagged
+  m_TagString: Harpon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72,12 +73,23 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1.28
+--- !u!114 &114067518310451664
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1221957186791108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d8e9c2b434f786468510be449988c00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114576764041149362
 MonoBehaviour:
   m_ObjectHideFlags: 1

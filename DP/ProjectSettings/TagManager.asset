@@ -5,8 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Harpon
+<<<<<<< HEAD
   - objectif_droit
   - objectif_gauche
+=======
+>>>>>>> c86ca5303e3cf5015e46ce85707aed39ecff1e5c
   layers:
   - Default
   - TransparentFX
@@ -43,4 +46,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Objects
+    uniqueID: 3159938829
+    locked: 0
+  - name: Player
+    uniqueID: 3412075507
     locked: 0
